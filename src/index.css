@@ -37,7 +37,7 @@ td, th {
 .gap {
   display: flex;
   align-items: center;
-  gap: 30px
+  gap: 20px
 }
 
 .date-input {
@@ -47,8 +47,18 @@ td, th {
 }
 
 .button-filter {
-  padding: 10px 55px;
+  padding: 10px 35px;
   background-color: aquamarine;
   border: none;
   border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    max-width: 300px;
+  }
+
+  table {
+    display: none;
+  }
 }

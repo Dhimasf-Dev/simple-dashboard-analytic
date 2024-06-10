@@ -7,6 +7,7 @@ import SearchBar from '../atoms/SearchBar'
 import { FetchData } from '../../utils/data';
 import { useSelector } from'react-redux';
 import MainTemplate from '../templates/MainTemplate'
+import Statistic from '../molecules/Statistic'
 
 const HomePage = () => {
   const { sales } = FetchData();
@@ -22,6 +23,7 @@ const HomePage = () => {
       <MainTemplate>
           <DateFilter />
           <SearchBar />
+          <Statistic />
           <SalesLineChart />
           <SalesBarChart />
           <SalesTable />

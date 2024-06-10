@@ -53,8 +53,10 @@ const DateFilter = () => {
                     onChange={(e) => handleEndDate(e.target.value)}
                 />
             </label>
-            <button className='button-filter' onClick={handleFilter}>Filter</button>
-            <button className='button-filter' onClick={handleReset}>Reset</button>
+            <div className='gap'>
+                <button className='button-filter' onClick={handleReset}>Reset</button>
+                <button className='button-filter' onClick={handleFilter}>Filter</button>
+            </div>
         </div>
     )
 }
