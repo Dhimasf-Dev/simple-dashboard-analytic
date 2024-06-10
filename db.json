@@ -1,0 +1,15 @@
+{
+    "sales": [
+      { "id": 1, "product": "Product A", "date": "2024-01-02", "sales": 101, "revenue": 1000 },
+      { "id": 2, "product": "Product B", "date": "2024-01-03", "sales": 201, "revenue": 1001 },
+      { "id": 3, "product": "Product C", "date": "2024-01-04", "sales": 301, "revenue": 1023 },
+      { "id": 4, "product": "Product D", "date": "2024-01-05", "sales": 501, "revenue": 1045 },
+      { "id": 5, "product": "Product E", "date": "2024-01-06", "sales": 701, "revenue": 1200 },
+      { "id": 6, "product": "Product F", "date": "2024-01-07", "sales": 181, "revenue": 2000 },
+      { "id": 7, "product": "Product G", "date": "2024-01-08", "sales": 901, "revenue": 5000 },
+      { "id": 8, "product": "Product H", "date": "2024-01-09", "sales": 461, "revenue": 8000 },
+      { "id": 9, "product": "Product I", "date": "2024-01-10", "sales": 871, "revenue": 9000 },
+      { "id": 10, "product": "Product J", "date": "2024-01-11", "sales": 271, "revenue": 4500 }
+    ]
+  }
+  
